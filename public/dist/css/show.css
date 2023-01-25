@@ -1,0 +1,99 @@
+:root{
+  --bluu:#2980b9;
+  --light-bluu:#ecf4f9;
+  --border:1px solid rgba(0,0,0,.1);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 70px;
+  background: #f0f3f5;
+  min-height: 100vh;
+}
+
+.container form{
+  width: 600px;
+  box-shadow: 0 10px 15px rgba(0,0,0,.1);
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.container form .links{
+  background: #fff;
+  padding: 30px 15px;
+}
+
+.container form .title{
+  font-size: 13px;
+  padding-bottom: 15px;
+  color: #666;
+}
+
+.container form .input-box{
+  padding: 30px;
+  background: var(--light-bluu);
+}
+
+.container form .input-box .input{
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  border: var(--border);
+}
+
+.container form .input-box .input input{
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  font-size: 11px;
+  color: #333;
+  text-transform: none;
+  border-radius: 10px;
+}
+
+.container form .checkbox{
+  text-align: left;
+  padding: 10px 0;
+}
+
+.container form .checkbox label{
+  font-size: 10px;
+  color:#333;
+  cursor: pointer;
+}
+
+.container form .btn1{
+  padding: 8px 30px;
+  margin-top: 8px;
+  font-size: 11px;
+  color: #fff;
+  border-radius: 10px;
+  background: var(--bluu);
+  cursor: pointer;
+  transition: 2s linear;
+}
+
+.container form .btn1:hover{
+  letter-spacing: 2px;
+}
